@@ -19,6 +19,7 @@ test('Logging in to the page', async ({ page }) => {
     // Go to the website
     await page.goto(expectedUrl);
 
+
     // Fill in the username and password fields and click the submit button
     await page.fill('input[name="username"]', username);
     await page.fill('input[name="password"]', password);
