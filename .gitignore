@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Playwright reports and traces
+playwright-report/
+trace.zip
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+
+# Operating system-specific files
+Thumbs.db
