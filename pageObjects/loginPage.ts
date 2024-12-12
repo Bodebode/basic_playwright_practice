@@ -20,3 +20,4 @@ export class LoginPage {
         await this.page.click('/html/body/div/div/section/section/div[1]/button');
     }
 }
+

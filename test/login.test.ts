@@ -23,7 +23,7 @@ test('Logging in to the page', async ({ page }) => {
     // Go to the website
     await page.goto(expectedUrl);
 
-    // Fill in the username and password fields and click the submit button
+    // Fill in the username and password fields and click the submit button...
     await page.fill('input[name="username"]', username);
     await page.fill('input[name="password"]', password);
     await page.click('button#submit.btn');
@@ -32,7 +32,7 @@ test('Logging in to the page', async ({ page }) => {
     if (currentUrl === loggedinUrl) {
         console.log('Login successful!'); // Verification successful
     } else {
-        console.log('Login failed or navigation issue.'); // Verification failed
+        console.log('Login failed or navigation issue.'); // Verification failed...
     }
 
 });
